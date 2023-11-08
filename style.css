@@ -16,6 +16,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-align: center;
+
+
+    overflow-y: hidden;
 }
 
 main{
@@ -75,8 +78,9 @@ footer a{
 }
 
 #rodape{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    
 }
